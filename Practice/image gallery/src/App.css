@@ -1,0 +1,35 @@
+.whole{
+   text-align: center;
+   margin: 20px;
+}
+.header{
+    text-decoration: underline;
+}
+.Images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 30%);
+}
+img:hover{
+    transform: scale(1.1);
+}
+.selected-image{
+    margin-top: 40px;
+    text-align: center;
+}
+.header-2{
+   margin-bottom: 10px;
+}
+.selected-img{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 50%);
+}
